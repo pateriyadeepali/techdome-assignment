@@ -21,7 +21,7 @@ cloudinary.config({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors({
-    origin: 'http://13.201.131.89:3000', // Replace with your frontend's domain or '*'
+    origin: 'http://10.104.113.108:30758', // Replace with your frontend's domain or '*'
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 }));
